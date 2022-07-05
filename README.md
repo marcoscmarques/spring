@@ -24,3 +24,5 @@ coloque http://localhost:8080 que é o caminho liberado no docker.
 Opcionalmente renomeie o nome da aplicação para "Remote Application".
 
 Mais detalhes de como utilizar spring no Docker: https://spring.io/guides/gs/spring-boot-docker/
+
+Documentação swagger disponível https://meuapp-spring.herokuapp.com/restful/swagger-ui/index.html

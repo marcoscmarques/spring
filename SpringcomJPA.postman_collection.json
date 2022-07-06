@@ -12,9 +12,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/customers",
+					"raw": "https://meuapp-spring.herokuapp.com/api/spring/customers",
 					"host": [
-						"https://meuapp-spring.herokuapp.com"
+						"https://meuapp-spring.herokuapp.com/api/spring"
 					],
 					"path": [
 						"customers"
@@ -29,9 +29,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/customers/11999999999/123456789",
+					"raw": "https://meuapp-spring.herokuapp.com/api/spring/customers/11999999999/123456789",
 					"host": [
-						"https://meuapp-spring.herokuapp.com"
+						"https://meuapp-spring.herokuapp.com/api/spring"
 					],
 					"path": [
 						"customers",
@@ -57,9 +57,9 @@
 					}
 				},
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/customers",
+					"raw": "https://meuapp-spring.herokuapp.com/api/spring/customers",
 					"host": [
-						"https://meuapp-spring.herokuapp.com"
+						"https://meuapp-spring.herokuapp.com/api/spring"
 					],
 					"path": [
 						"customers"
@@ -83,9 +83,9 @@
 					}
 				},
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/customers/11232354549/123",
+					"raw": "https://meuapp-spring.herokuapp.com/api/spring/customers/11232354549/123",
 					"host": [
-						"https://meuapp-spring.herokuapp.com"
+						"https://meuapp-spring.herokuapp.com/api/spring"
 					],
 					"path": [
 						"customers",
@@ -102,9 +102,9 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/customers/11232354549/123",
+					"raw": "https://meuapp-spring.herokuapp.com/api/spring/customers/11232354549/123",
 					"host": [
-						"https://meuapp-spring.herokuapp.com"
+						"https://meuapp-spring.herokuapp.com/api/spring"
 					],
 					"path": [
 						"customers",
@@ -121,9 +121,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/pizzas",
+					"raw": "https://meuapp-spring.herokuapp.com/api/spring/pizzas",
 					"host": [
-						"https://meuapp-spring.herokuapp.com"
+						"https://meuapp-spring.herokuapp.com/api/spring"
 					],
 					"path": [
 						"pizzas"
@@ -138,9 +138,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/pizzas/1",
+					"raw": "https://meuapp-spring.herokuapp.com/api/spring/pizzas/1",
 					"host": [
-						"https://meuapp-spring.herokuapp.com"
+						"https://meuapp-spring.herokuapp.com/api/spring"
 					],
 					"path": [
 						"pizzas",
@@ -165,9 +165,9 @@
 					}
 				},
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/pizzas",
+					"raw": "https://meuapp-spring.herokuapp.com/api/spring/pizzas",
 					"host": [
-						"https://meuapp-spring.herokuapp.com"
+						"https://meuapp-spring.herokuapp.com/api/spring"
 					],
 					"path": [
 						"pizzas"
@@ -191,9 +191,9 @@
 					}
 				},
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/pizzas/4",
+					"raw": "https://meuapp-spring.herokuapp.com/api/spring/pizzas/4",
 					"host": [
-						"https://meuapp-spring.herokuapp.com"
+						"https://meuapp-spring.herokuapp.com/api/spring"
 					],
 					"path": [
 						"pizzas",
@@ -209,9 +209,9 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/pizzas/4",
+					"raw": "https://meuapp-spring.herokuapp.com/api/spring/pizzas/4",
 					"host": [
-						"https://meuapp-spring.herokuapp.com"
+						"https://meuapp-spring.herokuapp.com/api/spring"
 					],
 					"path": [
 						"pizzas",
@@ -227,9 +227,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/requests",
+					"raw": "https://meuapp-spring.herokuapp.com/api/spring/requests",
 					"host": [
-						"https://meuapp-spring.herokuapp.com"
+						"https://meuapp-spring.herokuapp.com/api/spring"
 					],
 					"path": [
 						"requests"
@@ -253,9 +253,9 @@
 					}
 				},
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/requests",
+					"raw": "https://meuapp-spring.herokuapp.com/api/spring/requests",
 					"host": [
-						"https://meuapp-spring.herokuapp.com"
+						"https://meuapp-spring.herokuapp.com/api/spring"
 					],
 					"path": [
 						"requests"
@@ -279,9 +279,9 @@
 					}
 				},
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/requests",
+					"raw": "https://meuapp-spring.herokuapp.com/api/spring/requests",
 					"host": [
-						"https://meuapp-spring.herokuapp.com"
+						"https://meuapp-spring.herokuapp.com/api/spring"
 					],
 					"path": [
 						"requests"
@@ -305,9 +305,9 @@
 					}
 				},
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/requests/2",
+					"raw": "https://meuapp-spring.herokuapp.com/api/spring/requests/2",
 					"host": [
-						"https://meuapp-spring.herokuapp.com"
+						"https://meuapp-spring.herokuapp.com/api/spring"
 					],
 					"path": [
 						"requests",
@@ -323,9 +323,9 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/requests/2",
+					"raw": "https://meuapp-spring.herokuapp.com/api/spring/requests/2",
 					"host": [
-						"https://meuapp-spring.herokuapp.com"
+						"https://meuapp-spring.herokuapp.com/api/spring"
 					],
 					"path": [
 						"requests",

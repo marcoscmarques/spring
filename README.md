@@ -25,4 +25,5 @@ Opcionalmente renomeie o nome da aplicação para "Remote Application".
 
 Mais detalhes de como utilizar spring no Docker: https://spring.io/guides/gs/spring-boot-docker/
 
-Documentação swagger disponível https://meuapp-spring.herokuapp.com/restful/swagger-ui/index.html
+Documentação swagger disponível https://meuapp-spring.herokuapp.com/api/spring/restful/swagger-ui/index.html
+                                

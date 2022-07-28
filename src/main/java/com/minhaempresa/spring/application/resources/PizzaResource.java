@@ -11,7 +11,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/pizzas")
-@CrossOrigin(origins = "*")
 public class PizzaResource {
     @Autowired
     private PizzaService pizzaService;

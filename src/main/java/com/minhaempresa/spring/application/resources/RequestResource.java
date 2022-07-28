@@ -14,7 +14,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/requests")
-@CrossOrigin(origins = "*")
 public class RequestResource {
     @Autowired
     private RequestService requestService;

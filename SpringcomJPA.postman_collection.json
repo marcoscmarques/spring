@@ -378,6 +378,29 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Authenticate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://meuapp-spring.herokuapp.com/api/spring/user/authenticate",
+					"protocol": "https",
+					"host": [
+						"meuapp-spring",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"spring",
+						"user",
+						"authenticate"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }

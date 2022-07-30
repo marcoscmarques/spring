@@ -1,5 +1,5 @@
 package com.minhaempresa.spring.config.security;
-
+/*
 import com.minhaempresa.spring.application.filter.JwtTokenFilter;
 import com.minhaempresa.spring.application.services.JwtService;
 import com.minhaempresa.spring.application.services.SecurityUserDetailsService;
@@ -21,11 +21,11 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 import java.util.Arrays;
 import java.util.List;
-
+*/
 //@Configuration
-public class WebSecurityConfig extends WebSecurityConfigurerAdapter
+public class WebSecurityConfig //extends WebSecurityConfigurerAdapter
  {
-    @Autowired
+ /*   @Autowired
     SecurityUserDetailsService securityUserDetailsService;
     @Autowired
     private JwtService jwtService;
@@ -82,4 +82,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter
         filter.setOrder(Ordered.HIGHEST_PRECEDENCE);
         return filter;
     }
+
+  */
 }

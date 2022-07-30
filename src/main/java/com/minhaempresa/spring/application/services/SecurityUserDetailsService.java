@@ -1,17 +1,18 @@
 package com.minhaempresa.spring.application.services;
 
 import com.minhaempresa.spring.application.dtos.UsuarioDTO;
-import org.springframework.security.core.userdetails.User;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.stereotype.Service;
+//import org.springframework.security.core.userdetails.User;
+//import org.springframework.security.core.userdetails.UserDetails;
+//import org.springframework.security.core.userdetails.UserDetailsService;
+//import org.springframework.security.core.userdetails.UsernameNotFoundException;
+//import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+//import org.springframework.security.crypto.password.PasswordEncoder;
+//import org.springframework.stereotype.Service;
 
-@Service
-public class SecurityUserDetailsService implements UserDetailsService {
-
+//@Service
+public class SecurityUserDetailsService //implements UserDetailsService
+{
+/*
     @Override
     public UserDetails loadUserByUsername(String login) throws UsernameNotFoundException {
         //implementar rotina para recuperar o usuário.
@@ -32,5 +33,5 @@ public class SecurityUserDetailsService implements UserDetailsService {
                 .roles("USER") //Role padrão do Spring, se necessário substitua por outra
                 .build();
     }
-
+*/
 }

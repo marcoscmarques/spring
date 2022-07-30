@@ -1,5 +1,5 @@
 package com.minhaempresa.spring.config.security;
-
+/*
 import com.minhaempresa.spring.application.filter.JwtTokenFilter;
 import com.minhaempresa.spring.application.services.JwtService;
 import com.minhaempresa.spring.application.services.SecurityUserDetailsService;
@@ -20,27 +20,27 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 import java.util.Arrays;
 import java.util.List;
-
-@Configuration
+*/
+//@Configuration
 public class WebSecurityConfigV2 {
-
+/*
     @Autowired
     SecurityUserDetailsService securityUserDetailsService;
     @Autowired
     private JwtService jwtService;
 
-    @Bean
+    //@Bean
     public PasswordEncoder passwordEncoder() {
         PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
         return passwordEncoder;
     }
 
-    @Bean
+    //@Bean
     public JwtTokenFilter jwtTokenFilter() {
         return  new JwtTokenFilter(jwtService, securityUserDetailsService);
     }
 
-    @Bean
+   //@Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http.csrf()
                 .disable() //desabilitado porque não vou disponibilizar uma aplicação web junto com o sring.
@@ -58,7 +58,7 @@ public class WebSecurityConfigV2 {
         return http.build();
     }
 
-    @Bean
+    //@Bean
     public FilterRegistrationBean<CorsFilter> corsFilter() {
         List<String> all = Arrays.asList("*");
 
@@ -76,4 +76,6 @@ public class WebSecurityConfigV2 {
         filter.setOrder(Ordered.HIGHEST_PRECEDENCE);
         return filter;
     }
+
+ */
 }

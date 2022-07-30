@@ -1,5 +1,5 @@
 package com.minhaempresa.spring.application.services;
-
+/*
 import com.minhaempresa.spring.application.dtos.UsuarioDTO;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
@@ -12,10 +12,11 @@ import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
-
-@Service
-public class JwtServiceImpl implements JwtService {
-
+*/
+//@Service
+public class JwtServiceImpl //implements JwtService
+{
+/*
     @Value("${jwt.expiration}")
     private String jwtExpiration;
     @Value("${jwt.key}")
@@ -66,4 +67,6 @@ public class JwtServiceImpl implements JwtService {
         Claims claims = getClaims(token);
         return claims.getSubject();
     }
+
+ */
 }

@@ -13,16 +13,15 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin(origins = "*")
 public class UserResource {
 
-    //@Autowired
-    //JwtServiceImpl jwtService;
+    @Autowired
+    JwtServiceImpl jwtService;
 
     @PostMapping("/authenticate")
     public ResponseEntity<?> authenticate(@RequestBody UsuarioDTO usuarioDTO) {
             //implementar a autenticação do usuário...
 
-            //String token = jwtService.buildToken(usuarioDTO);
-            //TokenDTO tokenDTO = new TokenDTO(usuarioDTO.getUser(), token);
-            //return ResponseEntity.ok(tokenDTO);
-        return null;
+            String token = jwtService.buildToken(usuarioDTO);
+            TokenDTO tokenDTO = new TokenDTO(usuarioDTO.getUser(), token);
+            return ResponseEntity.ok(tokenDTO);
     }
 }

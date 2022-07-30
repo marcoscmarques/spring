@@ -21,12 +21,11 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-devtools'
 	// https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui
 	implementation group: 'org.springdoc', name: 'springdoc-openapi-ui', version: '1.6.9'
-	//implementation 'org.springframework.boot:spring-boot-starter-security'
-	//testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	//testImplementation 'org.springframework.security:spring-security-test'
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'org.springframework.security:spring-security-test'
 	// https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt
-	//implementation group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1'
-
+	implementation group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1'
 }
 
 // Add these START

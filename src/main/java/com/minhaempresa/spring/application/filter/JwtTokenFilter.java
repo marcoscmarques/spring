@@ -1,5 +1,4 @@
 package com.minhaempresa.spring.application.filter;
-/*
 import com.minhaempresa.spring.application.services.JwtService;
 import com.minhaempresa.spring.application.services.SecurityUserDetailsService;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -13,13 +12,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
- */
 /*
     intercepta uma requisição para decodificar o token e colocar o usuário do token no contexto do spring security
 */
-public class JwtTokenFilter //extends OncePerRequestFilter
-{
-/*
+public class JwtTokenFilter extends OncePerRequestFilter {
     private JwtService jwtService;
     private SecurityUserDetailsService securityUserDetailsService;
 
@@ -48,14 +44,9 @@ public class JwtTokenFilter //extends OncePerRequestFilter
                         );
                 usernamePasswordAuthenticationToken.
                         setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
-
                 SecurityContextHolder.getContext().setAuthentication(usernamePasswordAuthenticationToken);
-
             }
         }
-
         filterChain.doFilter(request, response);
     }
-
- */
 }

@@ -9,13 +9,23 @@
 		{
 			"name": "Customers",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTkxNzQ2MTQsInN1YiI6Ik1hcmNvcyIsImV4cGlyYXRpb25UaW1lIjoiMDY6NTAifQ.XdgINiwudtrw0qRQ522judCCtlBC99F_cbg_7ily4kf7hq7qSnFZuLEA1likDH0MvpsKf_wHJ0e6JRfT8qaQjQ",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/api/spring/customers",
+					"raw": "https://springbootjpajwt.herokuapp.com/api/spring/customers",
 					"protocol": "https",
 					"host": [
-						"meuapp-spring",
+						"springbootjpajwt",
 						"herokuapp",
 						"com"
 					],
@@ -34,10 +44,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/api/spring/customers/11232354549/123",
+					"raw": "https://springbootjpajwt.herokuapp.com/api/spring/customers/11232354549/123",
 					"protocol": "https",
 					"host": [
-						"meuapp-spring",
+						"springbootjpajwt",
 						"herokuapp",
 						"com"
 					],
@@ -59,7 +69,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id\": {\r\n            \"telephone\": \"11232354549\",\r\n            \"cpf\": \"123\"\r\n    },\r\n    \"address\" : \"Av. Indianópolis, 123\",\r\n    \"name\" : \"José\"\r\n}",
+					"raw": "{\r\n    \"id\": {\r\n            \"telephone\": \"11955554549\",\r\n            \"cpf\": \"5555\"\r\n    },\r\n    \"address\" : \"Av. Ibirapuera, 1000\",\r\n    \"name\" : \"Julio\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -67,10 +77,10 @@
 					}
 				},
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/api/spring/customers",
+					"raw": "https://springbootjpajwt.herokuapp.com/api/spring/customers",
 					"protocol": "https",
 					"host": [
-						"meuapp-spring",
+						"springbootjpajwt",
 						"herokuapp",
 						"com"
 					],
@@ -98,10 +108,10 @@
 					}
 				},
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/api/spring/customers/11232354549/123",
+					"raw": "https://springbootjpajwt.herokuapp.com/api/spring/customers/11232354549/123",
 					"protocol": "https",
 					"host": [
-						"meuapp-spring",
+						"springbootjpajwt",
 						"herokuapp",
 						"com"
 					],
@@ -122,10 +132,10 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/api/spring/customers/11232354549/123",
+					"raw": "https://springbootjpajwt.herokuapp.com/api/spring/customers/11232354549/123",
 					"protocol": "https",
 					"host": [
-						"meuapp-spring",
+						"springbootjpajwt",
 						"herokuapp",
 						"com"
 					],
@@ -146,10 +156,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/api/spring/pizzas",
+					"raw": "https://springbootjpajwt.herokuapp.com/api/spring/pizzas",
 					"protocol": "https",
 					"host": [
-						"meuapp-spring",
+						"springbootjpajwt",
 						"herokuapp",
 						"com"
 					],
@@ -168,10 +178,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/api/spring/pizzas/1",
+					"raw": "https://springbootjpajwt.herokuapp.com/api/spring/pizzas/1",
 					"protocol": "https",
 					"host": [
-						"meuapp-spring",
+						"springbootjpajwt",
 						"herokuapp",
 						"com"
 					],
@@ -200,10 +210,10 @@
 					}
 				},
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/api/spring/pizzas",
+					"raw": "https://springbootjpajwt.herokuapp.com/api/spring/pizzas",
 					"protocol": "https",
 					"host": [
-						"meuapp-spring",
+						"springbootjpajwt",
 						"herokuapp",
 						"com"
 					],
@@ -231,10 +241,10 @@
 					}
 				},
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/api/spring/pizzas/1",
+					"raw": "https://springbootjpajwt.herokuapp.com/api/spring/pizzas/1",
 					"protocol": "https",
 					"host": [
-						"meuapp-spring",
+						"springbootjpajwt",
 						"herokuapp",
 						"com"
 					],
@@ -254,10 +264,10 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/api/spring/pizzas/4",
+					"raw": "https://springbootjpajwt.herokuapp.com/api/spring/pizzas/4",
 					"protocol": "https",
 					"host": [
-						"meuapp-spring",
+						"springbootjpajwt",
 						"herokuapp",
 						"com"
 					],
@@ -277,10 +287,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/api/spring/requests",
+					"raw": "https://springbootjpajwt.herokuapp.com/api/spring/requests",
 					"protocol": "https",
 					"host": [
-						"meuapp-spring",
+						"springbootjpajwt",
 						"herokuapp",
 						"com"
 					],
@@ -308,10 +318,10 @@
 					}
 				},
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/api/spring/requests",
+					"raw": "https://springbootjpajwt.herokuapp.com/api/spring/requests",
 					"protocol": "https",
 					"host": [
-						"meuapp-spring",
+						"springbootjpajwt",
 						"herokuapp",
 						"com"
 					],
@@ -339,10 +349,10 @@
 					}
 				},
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/api/spring/requests/1",
+					"raw": "https://springbootjpajwt.herokuapp.com/api/spring/requests/1",
 					"protocol": "https",
 					"host": [
-						"meuapp-spring",
+						"springbootjpajwt",
 						"herokuapp",
 						"com"
 					],
@@ -362,10 +372,10 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/api/spring/requests/2",
+					"raw": "https://springbootjpajwt.herokuapp.com/api/spring/requests/2",
 					"protocol": "https",
 					"host": [
-						"meuapp-spring",
+						"springbootjpajwt",
 						"herokuapp",
 						"com"
 					],
@@ -384,11 +394,20 @@
 			"request": {
 				"method": "POST",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user\": \"Marcos\",\r\n    \"password\": \"123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
-					"raw": "https://meuapp-spring.herokuapp.com/api/spring/user/authenticate",
+					"raw": "https://springbootjpajwt.herokuapp.com/api/spring/user/authenticate",
 					"protocol": "https",
 					"host": [
-						"meuapp-spring",
+						"springbootjpajwt",
 						"herokuapp",
 						"com"
 					],

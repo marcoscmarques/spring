@@ -2,7 +2,7 @@ Projeto modelo utilizando Spring boot com JPA + JWT
 
 É utilizado os bancos H2 para testes e PostgreSQL para produção com deploy automático no Heroku pelo GitHub
 
-https://meuapp-spring.herokuapp.com/
+https://springbootjpajwt.herokuapp.com/api/spring/restful/swagger-ui/index.html
 
 O projeto contém o arquivo SpringcomJPA.postman_collection.json para ser importado no Postman já apontando para o Heroku.
 
@@ -25,5 +25,4 @@ Opcionalmente renomeie o nome da aplicação para "Remote Application".
 
 Mais detalhes de como utilizar spring no Docker: https://spring.io/guides/gs/spring-boot-docker/
 
-Documentação swagger disponível https://meuapp-spring.herokuapp.com/api/spring/restful/swagger-ui/index.html
                                 

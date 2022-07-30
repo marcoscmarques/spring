@@ -46,6 +46,7 @@ public class WebSecurityConfigV2 {
                 .disable() //desabilitado porque não vou disponibilizar uma aplicação web junto com o sring.
                 .authorizeRequests()
                 .antMatchers(HttpMethod.POST, "/user/authenticate").permitAll()//permite acesso sem autenticação
+                .antMatchers(HttpMethod.GET, "/restful/**").permitAll()
                 //.antMatchers(HttpMethod.POST, "/requests").hasRole("ADMIN")//GRUPO ADMIN, RH, ETC.
                 //.antMatchers(HttpMethod.POST, "/requests").hasAuthority("FAZER_PEDIDO")
                 .anyRequest().authenticated() //exige autenticação

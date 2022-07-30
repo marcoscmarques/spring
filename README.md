@@ -1,4 +1,4 @@
-Projeto modelo utilizando Spring boot com JPA
+Projeto modelo utilizando Spring boot com JPA + JWT
 
 É utilizado os bancos H2 para testes e PostgreSQL para produção com deploy automático no Heroku pelo GitHub
 
